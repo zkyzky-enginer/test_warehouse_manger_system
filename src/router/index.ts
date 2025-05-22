@@ -3,11 +3,11 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'Login',
+    name: 'test',
     // 注意这里要带上文件后缀.vue
-    component: () => import('@/pages/login/Login.vue'), 
+    component: () => import('@/views/index.vue'), 
     meta: {
-      title: '登录',
+      title: 'xx',
     },
   },
 ]
